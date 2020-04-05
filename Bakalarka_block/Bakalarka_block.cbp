@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Bakalarka_block" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Bakalarka_block" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Bakalarka_block" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Lepton_I2C.cpp" />
+		<Unit filename="Lepton_I2C.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_AGC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_AGC.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_ErrorCodes.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_I2C_Protocol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_I2C_Protocol.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_I2C_Reg.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_I2C_Service.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_I2C_Service.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_Macros.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_OEM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_OEM.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_SDK.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_SDK.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_SDKConfig.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_SYS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_SYS.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_Types.h" />
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_VID.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leptonSDKEmb32PUB/LEPTON_VID.h" />
+		<Unit filename="leptonSDKEmb32PUB/Makefile" />
+		<Unit filename="leptonSDKEmb32PUB/crc16.h" />
+		<Unit filename="leptonSDKEmb32PUB/crc16fast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leptonSDKEmb32PUB/raspi_I2C.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leptonSDKEmb32PUB/raspi_I2C.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

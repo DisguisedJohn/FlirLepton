@@ -1,0 +1,111 @@
+# depslib dependency file v1.0
+1585564937 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/Lepton_I2C.cpp
+	"Lepton_I2C.h"
+	"leptonSDKEmb32PUB/LEPTON_SDK.h"
+	"leptonSDKEmb32PUB/LEPTON_SYS.h"
+	"leptonSDKEmb32PUB/LEPTON_OEM.h"
+	"leptonSDKEmb32PUB/LEPTON_Types.h"
+	"leptonSDKEmb32PUB/LEPTON_AGC.h"
+
+1585564958 /home/pi/projects/Bakalarka_block/Bakalarka_block/Lepton_I2C.h
+
+1585250791 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_SDK.h
+	"LEPTON_Types.h"
+	"LEPTON_ErrorCodes.h"
+	"LEPTON_SDKConfig.h"
+	"LEPTON_I2C_Protocol.h"
+
+1585250792 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_Types.h
+	"avr_compiler.h"
+	<windows.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1585250790 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_ErrorCodes.h
+
+1585250791 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_SDKConfig.h
+
+1585250790 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_I2C_Protocol.h
+	"LEPTON_Types.h"
+	"LEPTON_ErrorCodes.h"
+	"LEPTON_I2C_Service.h"
+
+1585250791 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_I2C_Service.h
+	"LEPTON_Types.h"
+	"LEPTON_ErrorCodes.h"
+
+1585250792 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_SYS.h
+	"LEPTON_Types.h"
+
+1585250791 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_OEM.h
+	"LEPTON_Types.h"
+	"LEPTON_ErrorCodes.h"
+
+1585563526 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/main.cpp
+	<iostream>
+	"Lepton_I2C.h"
+
+1585250787 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/crc16fast.c
+	"crc16.h"
+
+1585250789 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/crc16.h
+
+1585564862 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_AGC.c
+	"LEPTON_SDK.h"
+	"LEPTON_AGC.h"
+
+1585250790 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_AGC.h
+	"LEPTON_Types.h"
+
+1585250787 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_I2C_Protocol.c
+	"LEPTON_Types.h"
+	"LEPTON_ErrorCodes.h"
+	"LEPTON_I2C_Protocol.h"
+	"LEPTON_I2C_Reg.h"
+	"crc16.h"
+
+1585250790 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_I2C_Reg.h
+
+1585250787 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_I2C_Service.c
+	"LEPTON_Types.h"
+	"LEPTON_ErrorCodes.h"
+	"LEPTON_I2C_Service.h"
+	"raspi_I2C.h"
+
+1585250792 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/raspi_I2C.h
+	"LEPTON_Types.h"
+	"LEPTON_ErrorCodes.h"
+
+1585250788 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_OEM.c
+	"LEPTON_SDK.h"
+	"LEPTON_OEM.h"
+
+1585250788 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_SDK.c
+	"LEPTON_SDK.h"
+	"LEPTON_I2C_Protocol.h"
+	"stdlib.h"
+
+1585250788 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_SYS.c
+	"LEPTON_SDK.h"
+	"LEPTON_SYS.h"
+
+1585250788 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_VID.c
+	"LEPTON_SDK.h"
+	"LEPTON_VID.h"
+
+1585250792 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_VID.h
+	"LEPTON_Types.h"
+
+1585250789 source:/home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/raspi_I2C.c
+	"LEPTON_Types.h"
+	"LEPTON_ErrorCodes.h"
+	"LEPTON_Macros.h"
+	"raspi_I2C.h"
+	"LEPTON_I2C_Reg.h"
+	<stdlib.h>
+	<fcntl.h>
+	<linux/i2c-dev.h>
+	<errno.h>
+
+1585250791 /home/pi/projects/Bakalarka_block/Bakalarka_block/leptonSDKEmb32PUB/LEPTON_Macros.h
+
