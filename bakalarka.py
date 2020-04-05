@@ -5,7 +5,7 @@ import sys
 import numpy as np
 import cv2
 import time
-import lepton3
+#import lepton3
 import ctypes
 
 from pylepton import Lepton
