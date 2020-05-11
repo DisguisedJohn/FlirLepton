@@ -16,8 +16,8 @@ def capture(flip_v = True, device = "/dev/spidev0.1"):
         a,_ = l.capture()
     if flip_v:
         cv2.flip(a,0,a)
-    cv2.normalize(a, a, 0, 65535, cv2.NORM_MINMAX)
-    np.right_shift(a, 8, a)
+    cv2.normalize(a, a, 0, 255, cv2.NORM_MINMAX)
+    #np.right_shift(a, 8, a)
     print(a)
     return np.uint8(a)
 
