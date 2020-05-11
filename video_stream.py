@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 
 import sys
-#import ipykernel
 import numpy as np
 import cv2
 import time
-#import lepton3
 import ctypes
 
 from pylepton import Lepton
@@ -13,16 +11,13 @@ from PIL import Image
 from smbus2 import SMBus
 number = 1
 
-#I2C = ctypes.cdll.LoadLibrary('/home/pi/Downloads/Bakalarka/Lepton_I2C.so')
-
-
 def capture(flip_v = True, device = "/dev/spidev0.1"):
     with Lepton(device) as l:
         a,_ = l.capture()
     if flip_v:
         cv2.flip(a,0,a)
-    #cv2.normalize(a, a, 0, 65535, cv2.NORM_MINMAX)
-    #np.right_shift(a, 8, a)
+    cv2.normalize(a, a, 0, 65535, cv2.NORM_MINMAX)
+    np.right_shift(a, 8, a)
     print(a)
     return np.uint8(a)
 
@@ -54,7 +49,7 @@ while True:
 #    
     for hei in range(0,60):
         for wid in range(0,80):
-            if thresh1[hei][wid] > 130:
+            if thresh1[hei][wid] > 130 :
                 thresh1[hei][wid] = 255
                 data[hei,wid]=[0,0,100]
             else:
