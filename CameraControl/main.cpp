@@ -5,12 +5,12 @@ using namespace std;
 
 int main()
 {
-    cout << "Starting inital setup. << endl;
+    cout << "Starting inital setup." << endl;
 
     lepton_agcDisable();    //Disabling auto gain control
     lepton_perform_ffc();   //Detector calibration
 
-    cout << "Inital setup done. << endl;
+    cout << "Inital setup done." << endl;
 
     return 0;
 }
