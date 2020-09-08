@@ -13,7 +13,7 @@ from smbus2 import SMBus
  
 
 # Function returns one picture frame with normalized value
-def capture(flip_v = False, device = "/dev/spidev0.1"):
+def capture(flip_v = False, device = "/dev/spidev0.0"):
     with Lepton(device) as l:
         a,_ = l.capture()
     if flip_v:
